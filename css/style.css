@@ -1388,31 +1388,6 @@ section {
   color: var(--text-muted);
 }
 
-.footer-social {
-  display: flex;
-  gap: 12px;
-}
-
-.footer-social a {
-  width: 40px;
-  height: 40px;
-  background: var(--bg-card);
-  border: 1px solid var(--border-color);
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-secondary);
-  transition: var(--transition);
-  font-size: 1rem;
-}
-
-.footer-social a:hover {
-  background: var(--gradient-green);
-  color: #fff;
-  border-color: transparent;
-}
-
 /* ===== SCROLL ANIMATIONS ===== */
 .reveal {
   opacity: 0;
