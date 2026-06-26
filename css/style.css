@@ -688,7 +688,7 @@ section {
 
 .servicos-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 24px;
   margin-top: 8px;
 }
@@ -697,7 +697,7 @@ section {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius);
-  padding: 32px 32px 26px;
+  padding: 30px 24px 24px;
   transition: var(--transition);
   position: relative;
   overflow: hidden;
@@ -759,6 +759,33 @@ section {
 .servico-card .btn-whatsapp {
   align-self: flex-start;
   margin-top: 8px;
+  padding: 12px 16px;
+  font-size: 0.82rem;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.servico-list {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  margin: 0 0 16px;
+}
+
+.servico-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.servico-list i {
+  color: var(--green-whatsapp);
+  font-size: 0.72rem;
+  margin-top: 4px;
+  flex-shrink: 0;
 }
 
 .servicos-cta {
