@@ -74,5 +74,5 @@ contactForm.addEventListener('submit', function(e) {
 
   const params = new URLSearchParams({ text: lines.join('\n') });
 
-  window.open(`https://wa.me/5585997961151?${params.toString()}`, '_blank', 'noopener,noreferrer');
+  window.open(`https://wa.me/5585996267173?${params.toString()}`, '_blank', 'noopener,noreferrer');
 });
